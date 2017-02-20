@@ -1,10 +1,10 @@
-Package: DreamPlex
-Version: enter Version number here
+Package: dreamplex
+Version: 2.1.14
 Description: Plex Client for Enigma2
 Section: extra
 Priority: optional
-Maintainer: DonDavici <dondavici@gmail.com>
+Maintainer: Wy53 <wyse@jeu.de>
 Architecture: all
 OE: enter Version number here
-Homepage: http://https://github.com/DonDavici/DreamPlex
-Source:  http://https://github.com/DonDavici/DreamPlex
+Homepage: http://https://github.com/Wy53/DreamPlex
+Source:  http://https://github.com/Wy53/DreamPlex
