@@ -25,7 +25,6 @@ You should have received a copy of the GNU General Public License
 import os
 import gettext
 
-
 from Components.config import config
 from Components.config import ConfigSubsection
 from Components.config import ConfigSelection
@@ -50,7 +49,7 @@ from __common__ import getVersion, registerPlexFonts, loadSkinParams, loadPlexSk
 #
 #===============================================================================
 version = getVersion()
-source = "feed" # other option is "ipk"
+source = "ipk" # options are "feed" and "ipk"
 
 defaultPluginFolderPath = resolveFilename(SCOPE_PLUGINS, "Extensions/DreamPlex/")
 defaultSkinsFolderPath	= resolveFilename(SCOPE_PLUGINS, "Extensions/DreamPlex/skins")
@@ -458,6 +457,9 @@ def getViewTypesForSettings():
 
 	viewChoicesForMusic = getViewsByType("music")
 	config.plugins.dreamplex.defaultMusicView = ConfigSelection(default = "0", choices = viewChoicesForMusic)
+	
+	viewChoicesForMixed = getViewsByType("mixed")
+	config.plugins.dreamplex.defaultMixedView = ConfigSelection(default = "0", choices = viewChoicesForMixed)
 
 	printl("", "__init__::getViewTypesForSettings", "C")
 

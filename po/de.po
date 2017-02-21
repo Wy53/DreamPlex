@@ -1093,6 +1093,10 @@ msgstr "> Standardansicht für Serien"
 msgid "> Default View for Music"
 msgstr "> Standardansicht für Musik"
 
+#: /hdd/workspaces/DreamPlex/src/DP_Settings.py:160
+msgid "> Default View for Mixed"                             
+msgstr "> Standardansicht für Mixed"  
+
 #: /hdd/workspaces/DreamPlex/src/DP_Settings.py:164
 msgid "> Media Folder Path"
 msgstr "> Medien-Verzeichnis"

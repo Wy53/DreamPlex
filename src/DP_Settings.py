@@ -167,6 +167,7 @@ class DPS_Settings(Screen, ConfigListScreen, HelpableScreen, DPH_PlexScreen):
 		self.cfglist.append(getConfigListEntry(_("> Default View for Movies"), config.plugins.dreamplex.defaultMovieView, _("Specify what view type should start automatically.")))
 		self.cfglist.append(getConfigListEntry(_("> Default View for Shows"), config.plugins.dreamplex.defaultShowView, _("Specify what view type should start automatically.")))
 		self.cfglist.append(getConfigListEntry(_("> Default View for Music"), config.plugins.dreamplex.defaultMusicView, _("Specify what view type should start automatically.")))
+		self.cfglist.append(getConfigListEntry(_("> Default View for Mixed"), config.plugins.dreamplex.defaultMixedView, _("Specify what view type should start automatically.")))
 
 		# PATH SETTINGS
 		self.cfglist.append(getConfigListEntry(_("Path Settings ") + separator, config.plugins.dreamplex.about, _(" ")))

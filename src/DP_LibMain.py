@@ -62,6 +62,9 @@ class DP_LibMain(Screen):
 		elif self._libraryName == "music":
 			self.currentViewIndex = int(config.plugins.dreamplex.defaultMusicView.value)
 
+		elif self._libraryName == "mixed":
+			self.currentViewIndex = int(config.plugins.dreamplex.defaultMixedView.value)
+
 		else:
 			self.currentViewIndex = 0
 		
